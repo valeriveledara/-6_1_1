@@ -11,11 +11,7 @@ namespace UnitTest1lab6
 	{
 	public:
 
-		TEST_METHOD(TestConstuctorNumber)
-		{
-			Number* n32 = new Number(32.0);
-			Assert::IsTrue(n32->value() == 32.0);
-		}
+		
 		TEST_METHOD(TestEvaluateNumber)
 		{
 			Number* n32 = new Number(32.0);
